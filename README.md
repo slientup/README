@@ -2,6 +2,31 @@ README
 ===========================
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
+#### 代码高亮显示
+在三个反引号后面加上**编程语言**的名字，另起一行开始写代码，最后一行再加上三个反引号。
+
+比如java ```java的方式
+
+```json
+{"alg": "HS512"}
+```
+```java
+package com.macro.mall.tiny.common.utils;
+
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Component;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+```
+
 ****
 	
 |Author|果冻虾仁|
